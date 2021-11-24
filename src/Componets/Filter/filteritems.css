@@ -1,0 +1,13 @@
+.filteritem{
+    padding: 8px;
+    display: flex;
+    background-color: var(--primery-bg);
+    color: var(--filtertaxt);
+    border: 1px solid var(--zomato-gray);
+    border-radius: 8px;
+    margin: 10px 10px 10px 0px;
+    font-size: 14px;
+}
+.filtername{
+    margin-left: 5px;
+}

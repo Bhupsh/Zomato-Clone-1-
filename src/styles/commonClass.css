@@ -1,0 +1,29 @@
+.max-width{
+    max-width: 1100px;
+    margin: 0px auto;
+     
+}
+
+.abs-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cur-po{
+    cursor: pointer;
+}
+
+.collection-title{
+    font-size: 30px;
+    margin-bottom:32px ;
+    font-size: 600;
+    color: var(--title-text);
+}
+
+.slick-next:before,
+.slick-prev:before
+ {
+     color: var(--gray);
+
+}
