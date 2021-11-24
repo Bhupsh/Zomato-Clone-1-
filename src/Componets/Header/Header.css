@@ -1,0 +1,98 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.header-logo{
+    height: 27px;
+    max-width: 140px;
+    margin-right: 24px;
+}
+
+.header-right{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    width: 100px;
+}
+
+.header-location-search-contianor{
+    height: 54px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: var(--primery-box-shadow);
+    border: 1px solid var(--border-white);
+    width: 70%;
+    background-color: var(--primery-bg);
+}
+
+.location-wapper{
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+    padding: 0px 10px;
+
+}
+.location-icon-name{
+display: flex;
+color: var(--zomato-gray);
+}
+.location-icon{
+    font-size: 20px;
+    padding-left: 8px;
+}
+
+.location-search-sparator{
+    height:20px;
+    border: .5px solid var(--gray)
+
+}
+
+.header-search-bar{
+    margin:8px;
+    flex:2;
+display:flex
+}
+
+.search-icon{
+    font-size: 20px;
+    color:var(--gray);
+    margin:0px 12px;
+}
+.search-input{
+    border:none;
+    outline: none;
+    width:60%;
+    font-size: 14px;;
+}
+
+.profile-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width:15%;
+    align-items: center;
+}
+
+.header-profile-img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-image: url(https://b.zmtcdn.com/data/user_profile_pictures/2ae/1433df0….jpg?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.header-user-name{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0px 0.5rem;
+    color: rgb(28, 28, 28);
+    max-width: 20rem;
+}
+
+

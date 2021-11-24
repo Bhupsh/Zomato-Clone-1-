@@ -1,0 +1,15 @@
+#root{
+    --primery-box-shadow:rgb(28 28 28 / 8%) 0px 2px 8px;
+    --border-white:rgb(232, 232, 232);
+    --primery-bg:rgb(255, 255, 255);
+    --zomato-gray:#828282;
+    --gray:rgb(207,207,207);
+    --inactivecolor:#696969; 
+    --filtertaxt:#9c9c9c;
+    --title-text:#1c1c1c;
+    --collection-shadow:rgb(0 0 0 / 8%) 0px 3px 12px;
+    --tag-red:#d92662;
+    --tag-blue:#256fef;
+    --tag-green:#267e3e;
+    --some-randomcolor:#f8f8f8;
+}
